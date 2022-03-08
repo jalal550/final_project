@@ -1,0 +1,387 @@
+.body {
+    background-color: whitesmoke;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    background-color: black;
+    top: 0px;
+    overflow: hidden;
+    width: 100%;
+    height: 60px;
+    position: sticky;
+}
+
+label.logo {
+    font-size: 35px;
+    padding: 10px 100px;
+    font-weight: bold;
+    color: white;
+    margin: 0px 10px;
+}
+
+.navbar ul {
+    float: right;
+    margin-right: 150px;
+    text-decoration: none;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover {
+    background-color: rgb(181, 192, 255);
+    transition: 1s;
+}
+
+#hero {
+    top: 70px;
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../img/cover.png");
+}
+#herotext{
+    top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    color: crimson;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    text-align: center;
+    margin: auto;
+    color: crimson;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+
+}
+
+#about {
+    top: 871px;
+    overflow: hidden;
+    height: 600px;
+
+}
+
+.aboutme {
+    box-sizing: content-box;
+    width: 1400px;
+    height: 550px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 5px;
+    border-style: none;
+    position: center;
+    background-color: moccasin;
+}
+
+.aboutmeleft {
+    box-sizing: content-box;
+    width: 45%;
+    height: 550px;
+    margin-left: 10px;
+    margin-top: 0px;
+    border-radius: 0px;
+    border-style: none;
+    position: center;
+    float: left;
+
+}
+
+.details {
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.progress {
+    width: 90%;
+    height: 10px;
+
+    background: violet;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 30px;
+    position: relative;
+
+
+}
+
+.progress_fill {
+    height: 100%;
+    background-color: lightskyblue;
+
+}
+
+.progress_text {
+
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    font: bold;
+}
+
+#serv {
+    top: 870px;
+    width: 100%;
+    overflow: hidden;
+    height: 150px;
+    background-attachment: fixed;
+}
+
+#services {
+    top: 1020px;
+    width: 100%;
+    overflow: hidden;
+    height: 800px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.servicebox {
+    box-sizing: content-box;
+    width: 30%;
+    height: 350px;
+    background-color: moccasin;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 10px;
+    display: flex;
+    border-radius: 10px;
+    border-style: none;
+    box-decoration-break: clone;
+    box-shadow: 5px 10px lightskyblue;
+
+}
+
+
+#counter {
+    top: 1420px;
+    width: 100%;
+    overflow: hidden;
+    height: 300px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+}
+
+.counterbox {
+    box-sizing: content-box;
+    width: 25%;
+    height: 300px;
+    background-color: moccasin;
+    padding-top: 10px;
+    display: flex;
+    border-style: none;
+    border-right:  2px solid;
+    border-color: skyblue;
+}
+
+#demo {
+    top: 1720px;
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
+    background-attachment: fixed;
+}
+.demo1 {
+    box-sizing: content-box;
+    width: 30%;
+    height: 320px;
+    background-color: moccasin;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    border-style: none;
+    box-decoration-break: clone;
+
+}
+.demo1 img{
+    max-width: 100%;
+}
+
+
+#portfolio {
+    top: 1820px;
+    width: 100%;
+    overflow: hidden;
+    height: 500px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#testimonial{
+    top: 2320px;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    background-attachment: fixed;
+    justify-content: space-between;
+    background-color:violet;
+}
+.testbox {
+    box-sizing: content-box;
+    width: 15%;
+    height: 200px;
+    background-color: moccasin;
+    margin-top: 10px;
+    display: flex;
+    border-style: none;
+    border-radius: 50%;
+    margin: auto;
+    background-image: url("../img/jalallogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+}
+.testbox1 {
+    box-sizing: content-box;
+    width: 40%;
+    height: 100px;
+    background-color:violet;
+    margin-top: 10px;
+    display: flex;
+    border-style: none;
+    margin: auto;
+    
+    
+   
+}
+#blog {
+    top: 2720px;
+    width: 100%;
+    overflow: hidden;
+    height: 100px;
+    background-attachment: fixed;
+}
+#blogpost {
+    top: 2820px;
+    width: 100%;
+    overflow: hidden;
+    height: 400px;
+    background-attachment: fixed;
+}
+
+#contact {
+    top: 3220px;
+    width: 100%;
+    overflow: hidden;
+    height:700px;
+    background-color: violet;
+}
+#contactme {
+    box-sizing: content-box;
+    width: 80%;
+    height: 700px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border-radius: 5px;
+    border-style: none;
+    position: center;
+    overflow: hidden;
+    background-color:violet;
+}
+.contactmeleft {
+    box-sizing: content-box;
+    width: 50%;
+    height: 660px;
+    margin-left:0px;
+    margin-top: 0px;
+    border-radius: 0px;
+    border-style: none;
+    position: center;
+    float: left;
+    overflow: hidden;
+    background-color: white;
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    margin-left: 10px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-style:double;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      color: chartreuse;
+      opacity: 5px;
+  }
+  
+  .fa-facebook {
+    background:#3B5998;;
+    color: white;
+  }
+  
+  
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+  
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  
+#footer {
+    top: 3920px;
+    width: 100%;
+    overflow: hidden;
+    height:250px;
+    background-color:#FFFFDD;
+}
+ #footer p{
+     text-align: center;
+     color:black;
+     margin-top: 100px;
+     font-size: 20px;
+ }
